@@ -23,15 +23,15 @@ This is a Front-End Ionic-Angular mobile apps for creating project or workload m
 
 * To-do: 
 
-* 1. Reporting & Analytics Page
-* 2. Project Tracker Page
-* 3. Workload Tradker Page
-* 4. Project Data
-* 5. Workload Data
-* 6. Team Management
-* 7. Settings
-* 8. Performance & Responsiveness
-* 9. Hard JSON data
+ 1. Reporting & Analytics Page
+ 2. Project Tracker Page
+ 3. Workload Tradker Page
+ 4. Project Data
+ 5. Workload Data
+ 6. Team Management
+ 7. Settings
+ 8. Performance & Responsiveness
+ 9. Hard JSON data
 
 ## Contact
 
