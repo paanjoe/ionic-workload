@@ -1,0 +1,115 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      <b>Main Menu</b>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <!-- <ion-searchbar></ion-searchbar> -->
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="ion-activatable ripple-parent">
+          <ion-card class="flex-card" color="light" (click)="goToReporting()">
+            <img class="flex-img" src="https://cdn.dribbble.com/users/3989110/screenshots/8019993/media/e933fdb6f94b46673ac35e341a677bae.jpg" />
+            <ion-card-header>
+              <ion-card-subtitle class="ion-text-center"><ion-text color="tertiary">Reporting & Analytic</ion-text></ion-card-subtitle>
+            </ion-card-header>
+            <ion-ripple-effect></ion-ripple-effect>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="ion-activatable ripple-parent" (click)="goToProject()">
+          <ion-card class="flex-card" color="light">
+            <img src="https://cdn.dribbble.com/users/1152172/screenshots/12002559/media/3c5d284cc74f6bec675d9839859f9d9d.jpg" />
+            <ion-card-header>
+              <ion-card-subtitle class="ion-text-center"><ion-text color="tertiary">Project</ion-text></ion-card-subtitle>
+            </ion-card-header>
+            <ion-ripple-effect></ion-ripple-effect>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="ion-activatable ripple-parent">
+          <ion-card class="flex-card" color="light" (click)="goToWorkload()">
+            <img src="https://cdn.dribbble.com/users/594518/screenshots/6915689/workload_dribbble_desk.jpg" />
+            <ion-card-header>
+              <ion-card-subtitle class="ion-text-center"><ion-text color="tertiary">Workload</ion-text></ion-card-subtitle>
+            </ion-card-header>
+            <ion-ripple-effect></ion-ripple-effect>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="ion-activatable ripple-parent">
+          <ion-card class="flex-card" color="light" (click)="goToProjectData()">
+            <img src="https://cdn.dribbble.com/users/47000/screenshots/11847849/media/05e3bf475aec77edda62cbe49ced276d.png" />
+            <ion-card-header>
+              <ion-card-subtitle class="ion-text-center"><ion-text color="tertiary">Project Data</ion-text></ion-card-subtitle>
+            </ion-card-header>
+            <ion-ripple-effect></ion-ripple-effect>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="ion-activatable ripple-parent">
+          <ion-card class="flex-card" color="light" (click)="goToWorkloadData()">
+            <img src="https://cdn.dribbble.com/users/33046/screenshots/13822141/media/ac015f099f6afbbe042e067811e68c5b.png" />
+            <ion-card-header>
+              <ion-card-subtitle class="ion-text-center"><ion-text color="tertiary">Workload Data</ion-text></ion-card-subtitle>
+            </ion-card-header>
+            <ion-ripple-effect></ion-ripple-effect>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="ion-activatable ripple-parent">
+          <ion-card class="flex-card" color="light" (click)="goToTeam()">
+            <img src="https://cdn.dribbble.com/users/594518/screenshots/6585546/workload_illustration_dribbble_2.jpg" />
+            <ion-card-header>
+              <ion-card-subtitle class="ion-text-center"><ion-text color="tertiary">Team</ion-text></ion-card-subtitle>
+            </ion-card-header>
+            <ion-ripple-effect></ion-ripple-effect>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="ion-activatable ripple-parent">
+          <ion-card class="flex-card" color="light" (click)="goToSettings()">
+            <img src="https://cdn.dribbble.com/users/1537480/screenshots/7831755/media/781944a20a2a420b4d8a24ca8b9330c7.jpg" />
+            <ion-card-header>
+              <ion-card-subtitle class="ion-text-center"><ion-text color="tertiary">Settings</ion-text></ion-card-subtitle>
+            </ion-card-header>
+            <ion-ripple-effect></ion-ripple-effect>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer>
+  <p>x</p>
+  <ion-tabs>
+    <!-- Tab bar -->
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button (click)="goToHome()">
+        <ion-icon color="tertiary" name="home"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button (click)="goToNotification()">
+        <ion-icon color="tertiary" name="notifications-outline"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-footer>
+
+
+
