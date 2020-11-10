@@ -1,65 +1,38 @@
-# Ionic Angular Material
+# Ionic Angular - Workload Management Apps
 
-App created using the [Ionic 5 framework](https://ionicframework.com/docs) to use [mat select](https://material.angular.io/components/select/overview) to select from a list of options, [mat paginator](https://material.angular.io/components/paginator/overview) to navigate pages and [Material Stepper](https://material.angular.io/components/stepper/overview) to divide content into logical steps.
+This is a Front-End Ionic-Angular mobile apps for creating project or workload management tracker for your team. A very basic front-end feature for you to kickstart your project. You can simply create back-end using ExpressJS/TypeORM and such as to make this apps workable.
 
-## Table of contents
-
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
-
-## General info
-
-* Angular Material is the implementation of Material Design for Angular. It offers a wide range of components and patterns for navigation, forms, buttons, layouts etc. The latest version is 8.0.0 but version 7.3.7 is used here with Ionic.
-
-## Screenshots
-
-![image](./img/front-screen.png)
 
 ## Technologies
 
-* [Ionic v5.0.0](https://ionicframework.com/)
+* [Ionic v6.11.8](https://ionicframework.com/)
 
-* [Angular v7.2.2](https://angular.io/)
+* [Angular v10.0.0](https://angular.io/)
 
-* [Ionic/angular v4.1.0](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic/angular v5.4.3](https://www.npmjs.com/package/@ionic/angular)
 
-* [Angular Material v7.3.7](https://material.angular.io/)
+* [Angular Material v10.2.7](https://material.angular.io/)
 
 ## Setup
 
 * To start the server on _localhost://8100_ type: 'ionic serve'
 
-## Code Examples
-
-* extract from `home.page.html` of the material table that displays the user first name using data-interpolation.
-
-```html
-  <ng-container matColumnDef="first_name">
-    <th mat-header-cell *matHeaderCellDef> First Name </th>
-    <td mat-cell *matCellDef="let user"> {{user.first_name}} </td>
-  </ng-container>
-```
-
-## Features
-
-* User list can be extended. Lots of additional material components can be added.
-
 ## Status & To-do list
 
-* Status: Working.
+* Status: Work In Progress.
 
-* To-do: try more of the functionality from Angular Material.
+* To-do: 
 
-## Inspiration
-
-Project inspired by [Simon Grimm´s Youtube video: ionic angular material](https://www.youtube.com/watch?v=pd-CF-dWEak)
+* 1. Reporting & Analytics Page
+* 2. Project Tracker Page
+* 3. Workload Tradker Page
+* 4. Project Data
+* 5. Workload Data
+* 6. Team Management
+* 7. Settings
+* 8. Performance & Responsiveness
+* 9. Hard JSON data
 
 ## Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [PaanJoe](https://github.com/paanjoe) - feel free to contact me @ farhan.gunz@gmail.com!
